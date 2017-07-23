@@ -15,6 +15,7 @@ int main()
 
     for (int index = 0; index < 11; ++index){
         def.output[index];
+        /* def.tag[index] = def.output[index] / --app; */
         def.output[index] = def.output[index] / --app;
         cout << def.output[index];
         }
